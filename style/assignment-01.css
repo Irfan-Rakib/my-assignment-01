@@ -10,7 +10,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+body{
+  background-color: #f9f9ff
+}
 /* shared style */
 .btn-primary{
   font-size: 16px;
@@ -102,4 +104,41 @@ margin: 50px 150px;
 font-size: 20px;
 font-weight: 400px;
 color: rgba(0, 0, 0, 0.5);
+}
+.newslater{
+  display: flex;
+  margin: 120px 150px;
+  gap: 115px;
+  
+}
+.newslater-title{
+  font-size: 94px;
+  font-weight: bold;
+  color: black;
+}
+.newslater-column{
+  width: 50%;
+}
+ section input[type="text"], section input[type="email"], section textarea {
+height: 64px;
+border-radius: 10px;
+background-color: white;
+display: block;
+width: 100%;
+margin-bottom: 24px;
+border: none;
+}
+.btn-get-in-touch{
+  width: 100%;
+}
+label{
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  
+}
+::placeholder{
+  font-size: 20px;
+  padding-left: 32px;
+  padding: 20px;
 }
