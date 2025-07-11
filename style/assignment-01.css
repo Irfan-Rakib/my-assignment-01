@@ -151,7 +151,6 @@ label{
   font-size: 100px;
   font-weight: 900;
   color: #4E47FF;
-  padding-bottom: none;
 }
 footer-description{
   color: #252432;
@@ -171,4 +170,53 @@ footer li a {
   text-decoration: none;
   color: #252432;
 
+}
+/* Style all <a>  */
+a{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  color: white;
+  text-decoration: none;  /* underline remove */
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+a:hover{
+  background-color: #eaf0db;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+/* Base style for buttons */
+button {
+  padding: 10px 20px;
+  background-color: #3498db;  /* blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;  /* smooth animation */
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #2980b9;  /* darker blue */
+  transform: scale(1.05);     /* slightly bigger */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #4E47FF;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
