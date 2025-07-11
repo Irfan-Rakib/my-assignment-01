@@ -26,6 +26,7 @@ body{
 /* Header style */
 .header{
   background-image: url(../Assets/Hero-bg.png);
+  margin-top: none;
 }
 .banner{
   text-align: center;
@@ -122,10 +123,9 @@ color: rgba(0, 0, 0, 0.5);
 
 /* Ratings Style */
 .section {
-      max-width: 1200px;
-      margin: 50px auto;
-      padding: 20px;
       text-align: center;
+      margin: 120px 150px;
+    
     }
 
     .section h2 {
@@ -133,13 +133,16 @@ color: rgba(0, 0, 0, 0.5);
       font-weight: bold;
       color: #2c2c3e;
       margin-bottom: 40px;
+      
     }
 
     .testimonial-container {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 20px;
+      gap: 50px;
+      
+      
     }
 
     .testimonial-card {
@@ -149,6 +152,7 @@ color: rgba(0, 0, 0, 0.5);
       width: 300px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
       text-align: left;
+      
     }
 
     .stars {
@@ -200,6 +204,8 @@ width: 100%;
 margin-bottom: 24px;
 border: none;
 }
+
+
 .btn-get-in-touch{
   width: 100%;
 }
@@ -215,14 +221,16 @@ label{
   padding: 20px;
 }
 .footer{
-  margin: 104px 680px;
+  
   text-align: center;
   gap: 5px;
+  background-color: white;
 }
 .footer-logo{
   font-size: 100px;
   font-weight: 900;
   color: #4E47FF;
+  padding-top: 50px;
 }
 footer-description{
   color: #252432;
@@ -235,8 +243,10 @@ footer-description{
   font-size: 16px;
   display: flex;
   list-style: none;
-  justify-content: space-around;
+  align-items: center;
   border: none;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 footer li a {
   text-decoration: none;
